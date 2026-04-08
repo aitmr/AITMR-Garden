@@ -1,4 +1,5 @@
-import { Mail, MessageCircle, Send } from 'lucide-react'
+import { Send } from 'lucide-react'
+import { FaGithub } from 'react-icons/fa'
 
 function ContactSection() {
   return (
@@ -38,21 +39,25 @@ function ContactSection() {
 
         <div className="mt-12 flex justify-center gap-4">
           {[
-            { icon: Send, label: 'Channel', href: 'https://github.com/' },
-            { icon: Mail, label: 'Mail', href: 'mailto:tiemourenmmmm@gmail.com' },
-            { icon: MessageCircle, label: 'Message', href: 'mailto:tiemourenmmmm@gmail.com' },
-          ].map((item) => (
-            <a
-              key={item.label}
-              href={item.href}
-              target={item.href.startsWith('http') ? '_blank' : undefined}
-              rel={item.href.startsWith('http') ? 'noreferrer' : undefined}
-              aria-label={item.label}
-              className="inline-flex h-12 w-12 items-center justify-center border border-white/20 text-gray-300 transition-colors hover:border-white/40 hover:text-white"
-            >
-              <item.icon size={18} />
-            </a>
-          ))}
+            { icon: FaGithub, label: 'GitHub', href: 'https://github.com/' },
+            { label: 'Placeholder 1', href: '#' },
+            { label: 'Placeholder 2', href: '#' },
+          ].map((item) => {
+            const Icon = item.icon
+
+            return (
+              <a
+                key={item.label}
+                href={item.href}
+                target={item.href.startsWith('http') ? '_blank' : undefined}
+                rel={item.href.startsWith('http') ? 'noreferrer' : undefined}
+                aria-label={item.label}
+                className="inline-flex h-12 w-12 items-center justify-center border border-white/20 text-gray-300 transition-colors hover:border-white/40 hover:text-white"
+              >
+                {Icon ? <Icon size={18} /> : <span className="text-[10px]">占位</span>}
+              </a>
+            )
+          })}
         </div>
       </div>
     </section>
