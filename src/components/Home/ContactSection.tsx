@@ -17,7 +17,7 @@ function ContactSection() {
           无论是技术交流、商业合作，还是产品咨询，欢迎随时联系。
         </p>
 
-        <div className="mx-auto mt-12 grid w-full max-w-xl grid-cols-1 gap-8 text-left sm:grid-cols-2">
+        <div className="mx-auto mt-12 grid w-full max-w-xl grid-cols-1 gap-8 text-center sm:grid-cols-2">
           <div>
             <p className="mb-2 text-xs tracking-widest text-gray-500">EMAIL</p>
             <p className="text-base text-white">tiemourenmmmm@gmail.com</p>
@@ -30,7 +30,7 @@ function ContactSection() {
 
         <a
           href="mailto:tiemourenmmmm@gmail.com"
-          className="mx-auto mt-10 inline-flex items-center gap-2 bg-primary px-8 py-3 text-sm font-medium text-white transition-opacity hover:opacity-90"
+          className="mx-auto mt-10 inline-flex items-center gap-2 bg-[#C89A67] px-8 py-3 text-sm font-medium text-white transition-colors hover:bg-[#B98755]"
         >
           <Send size={16} />
           发送邮件

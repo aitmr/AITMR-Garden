@@ -6,7 +6,7 @@ function MediaMetricsSection() {
       <div className="mx-auto w-full max-w-6xl px-4 md:px-8">
         <div className="mb-10 space-y-4 md:mb-12">
           <p className="text-xs tracking-[0.25em] text-textMuted">KEY METRICS</p>
-          <h2 className="text-3xl font-light text-warm-title md:text-5xl">用数据说话</h2>
+          <h2 className="text-3xl font-normal text-textMain md:text-5xl">用数据说话</h2>
         </div>
 
         <div className="overflow-hidden rounded-card">

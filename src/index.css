@@ -9,6 +9,10 @@
     height: 100%;
   }
 
+  html {
+    background-color: #1a1817;
+  }
+
   body {
     margin: 0;
     background-color: theme('colors.warm.bg');

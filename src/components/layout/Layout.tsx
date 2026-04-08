@@ -134,8 +134,8 @@ function Layout() {
         )}
       </AnimatePresence>
 
-      <footer className="border-t border-warm-accent/35 bg-warm-bg">
-        <div className="mx-auto w-full max-w-6xl px-4 py-6 text-sm text-textMuted md:px-8">
+      <footer className="border-t border-white/10 bg-[#1A1817]">
+        <div className="mx-auto w-full max-w-6xl px-4 py-6 text-sm text-gray-400 md:px-8">
           © {new Date().getFullYear()} 铁某人的小屋 · 持续生长中
         </div>
       </footer>

@@ -17,16 +17,16 @@ function HomePage() {
       >
         <div className="mx-auto w-full max-w-6xl px-4 md:px-8">
           <div className="grid items-center gap-10 md:grid-cols-2 md:gap-12">
-            <div className="space-y-5 text-left">
+            <div className="space-y-5 text-center md:text-left">
               <p className="text-xs tracking-[0.28em] text-textMuted">AI NATIVE CODER</p>
 
-              <h1 className="text-4xl font-light leading-tight text-textMain md:text-5xl">
+              <h1 className="text-4xl font-normal leading-tight text-textMain md:text-5xl">
                 铁某人
               </h1>
 
-              <p className="text-sm tracking-wide text-textMuted md:text-base">alchain</p>
+              <p className="text-sm tracking-wide text-textMuted md:text-base">Alchain</p>
 
-              <p className="max-w-xl text-base leading-8 text-textMuted md:text-lg">
+              <p className="mx-auto max-w-xl text-center text-base leading-8 text-textMuted md:mx-0 md:text-left md:text-lg">
                 用数据理解世界，
                 <br />
                 用设计感受生活的独立开发者。
@@ -37,7 +37,7 @@ function HomePage() {
                 探索<span className="font-normal text-textMain">未来</span>的可能。
               </p>
 
-              <div className="flex flex-wrap justify-start gap-4 pt-2">
+              <div className="flex flex-wrap justify-center gap-4 pt-2 md:justify-start">
                 <a
                   href="#contact"
                   onClick={(event) => {

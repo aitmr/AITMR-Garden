@@ -18,7 +18,7 @@ function WorksSection() {
           className="mb-8 md:mb-10"
         >
           <p className="mb-2 text-xs tracking-[0.25em] text-textMuted">SELECTED WORKS</p>
-          <h2 className="mb-3 text-3xl font-normal text-warm-title md:text-4xl">作品 Works</h2>
+          <h2 className="mb-3 text-3xl font-normal text-textMain md:text-4xl">作品 Works</h2>
           <p className="max-w-3xl leading-8 text-textMuted">
             这里收录了我在数据分析与产品设计方向的代表项目。每个项目都围绕真实问题展开，
             从洞察、方案到落地，持续打磨“可理解、可执行、可复用”的产品体验。
