@@ -2,6 +2,16 @@ import type { Article } from '../types/article'
 
 export const articles: Article[] = [
   {
+    id: 'daily-2026-04-25-apple-openelm-and-legal-coherence',
+    title: 'AI 日报｜OpenELM 与版权判例共振，AI 进入“口袋化 + 合规化”新阶段',
+    date: '2026-04-25',
+    readTime: '7 分钟',
+    summary:
+      '苹果开源 OpenELM 推动端侧推理能力上行，美国法院就训练数据版权争议给出阶段性边界；叠加 Blackwell 亚洲部署、隐私功能升级与具身智能进展，行业主线正转向本地算力与法律治理协同。',
+    category: 'daily',
+    tags: ['AI 日报', 'Apple', 'OpenELM', '版权合规', '端侧 AI'],
+  },
+  {
     id: 'daily-2026-04-24-openai-price-cut-and-regulation-loop',
     title: 'AI 日报｜OpenAI 降价与监管成形，行业进入“可用 + 可审计”新阶段',
     date: '2026-04-24',
