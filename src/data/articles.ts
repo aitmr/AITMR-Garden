@@ -2,6 +2,16 @@ import type { Article } from '../types/article'
 
 export const articles: Article[] = [
   {
+    id: 'daily-2026-04-28-google-anthropic-gpt-55-deepseek-physical-ai-policy',
+    title: 'AI 日报｜巨头防御性投资升级，Agentic 能力与物理 AI 同步提速',
+    date: '2026-04-28',
+    readTime: '7 分钟',
+    summary:
+      'Google 追加投资 Anthropic、GPT-5.5 Agentic 能力跃升、DeepSeek V4 预览版上线，以及南非撤回含虚假引用的 AI 政策草案，共同指向大厂防御性投资、模型效率提升与 AI 治理强化三条主线。',
+    category: 'daily',
+    tags: ['AI 日报', 'Google', 'Anthropic', 'GPT-5.5', '物理 AI'],
+  },
+  {
     id: 'daily-2026-04-27-ai-from-virtual-to-physical',
     title: 'AI 日报｜AI 从虚拟走向物理，算力与资产逻辑同步重估',
     date: '2026-04-27',
